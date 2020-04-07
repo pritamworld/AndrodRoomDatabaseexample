@@ -19,10 +19,6 @@ import java.util.List;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-/**
- * Created by gonzalo on 7/14/17
- */
-
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder> {
 
     private final List<Product> list;
@@ -61,7 +57,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         public void bind(Product product) {
             String price = itemView.getContext().getString(R.string.price_format, String.valueOf(product.getPrice()));
             name.setText(product.getName() + "-" + price);
-            Picasso.with(itemView.getContext()).load(product.getImageUrl()).into(image);
+            //Picasso.with(itemView.getContext()).load().into(image);
+            Picasso.get().load(product.getImageUrl()).into(image);
         }
     }
 }
