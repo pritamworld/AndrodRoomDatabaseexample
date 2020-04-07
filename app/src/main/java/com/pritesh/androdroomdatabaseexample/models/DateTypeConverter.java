@@ -1,8 +1,8 @@
 package com.pritesh.androdroomdatabaseexample.models;
 
-import android.arch.persistence.room.TypeConverter;
-
 import java.util.Date;
+
+import androidx.room.TypeConverter;
 
 /**
  * Created by pritesh.patel on 2017-11-21, 2:47 PM.

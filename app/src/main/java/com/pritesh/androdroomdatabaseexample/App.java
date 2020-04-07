@@ -6,10 +6,11 @@ package com.pritesh.androdroomdatabaseexample;
  */
 
 import android.app.Application;
-import android.arch.persistence.room.Room;
 import android.content.SharedPreferences;
 
 import com.pritesh.androdroomdatabaseexample.models.MyDatabase;
+
+import androidx.room.Room;
 
 
 public class App extends Application

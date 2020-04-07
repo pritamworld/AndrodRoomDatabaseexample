@@ -1,12 +1,12 @@
 package com.pritesh.androdroomdatabaseexample.models;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.RoomDatabase;
-import android.arch.persistence.room.TypeConverters;
-import android.arch.persistence.room.migration.Migration;
-
 import com.pritesh.androdroomdatabaseexample.App;
+
+import androidx.room.Database;
+import androidx.room.RoomDatabase;
+import androidx.room.TypeConverters;
+import androidx.room.migration.Migration;
+import androidx.sqlite.db.SupportSQLiteDatabase;
 
 /**
  * Created by pritesh.patel on 2017-11-21, 2:43 PM.

@@ -1,8 +1,8 @@
 package com.pritesh.androdroomdatabaseexample.models;
 
-import android.arch.persistence.room.ColumnInfo;
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 /**
  * Created by pritesh.patel on 2017-11-21, 2:42 PM.
